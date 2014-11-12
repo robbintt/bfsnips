@@ -4,7 +4,7 @@
 [register 0 can also be used to make comments]
 
 >
-[Sentinel value to begin loop is also the value to match]
+[Sentinel value to begin loop]
 ++++++++++
 ++++++++++
 ++++++++++
@@ -14,11 +14,10 @@
 
 <[Accept input until it is a specific value in this case 48]>
 [
->,[-]
+,
 ----------
 ----------
 ----------
 ----------
-----------
--------]
-.
+--------
+].
