@@ -55,11 +55,13 @@ pseudocode - jump to register(reg6):
 ]
 
 [ Basic structure for while current > 0 ]
-[ Lines 3 and 4 store the value in reg 7 ]
+[ Lines 3 and 4 store the reg8 value in reg7 ]
 >[>>>>>>>
 [
-[-<+<<<<+>>>>>]
-<<<<<[->>>>>+<<<<<]>>>>>
+>
+[-<<+<<<<+>>>>>>]
+<<<<<<[->>>>>>+<<<<<<]>>>>>>
+<
 <[
 <.>
 -
