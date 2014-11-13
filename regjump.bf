@@ -26,7 +26,7 @@ pseudocode - jump to register(reg6):
 [Begin non-scaffolding code]
 [==============================]
 
-[Move to the sentinel register][store our value in reg4]
+[store our value in reg6]
 >[>>>>>
 
 ++++++++++
@@ -38,6 +38,26 @@ pseudocode - jump to register(reg6):
 <<<<<<]
 
 
+[Copy reg6 to mem1/reg2 using mem2/reg3]
+>[>>>>>
+
+[
+-
+<<<+>>>
+<<<<+>>>>
+]
+
+<<<
+[
+>>>+<<<
+-
+]
+>>>
+
+<<<<<<]
+
+[Print out reg3 and on]
+>>...>>>>...>
 
 
 
