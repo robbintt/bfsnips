@@ -93,6 +93,7 @@ pseudocode - jump to register(reg6):
 
 [How is a slide decrementer even going to work? Here I put one slide decrementer for every zero in the block]
 [Why the hell does only 8 slide decrementors work, 1-7 or 9+ sticks in a loop inside the decrementor]
+[Got 9 to work... saved the file where only 8 worked, not sure where the bug was though]
 
 <[<]
 <[<]
@@ -111,7 +112,8 @@ pseudocode - jump to register(reg6):
 [diagnostic output: reg6]
 >>>>>>.<<<<<<
 
-[
+[Here we increment the slider up the binary block, fill in any gaps and increment the counter/decrement the countdown.]
+[This doesn't have much functional value, but hopefully we can create some by adding features.]
 [scan block size 200]
 [reg10 is max count]
 [reg11 is counter reg]
@@ -120,7 +122,7 @@ pseudocode - jump to register(reg6):
 +++++++
 [
 >>>>>>>>>>
-[>]+
+>[>]+
 [<]
 <<<<<<<<<
 +
@@ -132,14 +134,11 @@ pseudocode - jump to register(reg6):
 ++++++++++
 ++++++++++
 ++++++++++
-++++++++
+++++++++.
 
 
-<<<<<<<<<<
+<<<<<<<<<<<
 
-
-]
-]
 
 [diagnostic output: reg6]
->>>>>>.<<<<<<
+>>>>>>...<<<<<<
