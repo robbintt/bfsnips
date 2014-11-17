@@ -18,6 +18,22 @@ number and slide decrement to the top.
 There's an essential problem which is that we cannot tell the top from a decremented
 number like the second number after sliding up and decrementing one.
 
+Data could be stored between zeros, since any data would be nonzero.
+However, the data could not be changed to zero or it would ruin the integrity
+of the datastore.
+
+ex.  0, 15, 0, 20, 0, 25 
+
+The sequence of [>][>][>]>. would yield 25.
+
+However, how do we dynamically increment?
+
+How about if we incremented the zeros as we went along, and
+used a manual re-zero function to copy all the zeros back on their
+absolute register number at the end. Then we could zip down the whole data
+every time a zero is hit using a <[<], slide decrementer.
+
+
 ]
 
 [reg0 as null register]
