@@ -1,12 +1,22 @@
 
-[Goals: Go to register reg6 and set reg5 current register accordingly
+[
+Goal:
+Use slide incrementers and slide decrementers to navigate the zeros in a 
+binary blob of ones and zeros.
 
-pseudocode - jump to register(reg6):
-        store reg6 in mem1 - use mem2 to copy it over
-        set reg5 to null register
-        increment reg5 one time for every decrement of mem1
-        increment > one time for every decrement of mem1
-        and thats how you bake a cake!
+Status:
+Partially complete, I can navigate them but can't count their distance, kind of silly.
+
+Future goals:
+
+Use slide incrementers and slide decrementers to bounce up and down
+a series of registers.
+
+For example, if we have the series 0,1,1,2,3,4,5,0 then we would start at the first
+number and slide decrement to the top.
+
+There's an essential problem which is that we cannot tell the top from a decremented
+number like the second number after sliding up and decrementing one.
 
 ]
 
