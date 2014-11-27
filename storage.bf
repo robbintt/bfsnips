@@ -12,10 +12,15 @@ The sequence of >[>][>]>. would yield 25.
 
 However, how do we dynamically increment?
 
+Idea:
 How about if we incremented the zeros as we went along, and
 used a manual re-zero function to copy all the zeros back on their
 absolute register number at the end. Then we could zip down the whole data
 every time a zero is hit using a <[<], slide decrementer.
+
+Cons:
+Data cannot be a zero or it will throw the read head off.
+Also it will then be changed to a 1 during the slide increment.
 
 We can easily zero a register using: [-]
 
