@@ -22,6 +22,9 @@ Cons:
 Data cannot be a zero or it will throw the read head off.
 Also it will then be changed to a 1 during the slide increment.
 
+Status:
+Success
+
 We can easily zero a register using: [-]
 
 ]

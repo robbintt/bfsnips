@@ -4,7 +4,7 @@
 
 #### What can I do so far?
 
-storage - sample of storing nonzero data in a register bank.
+storage - sample of storing nonzero data in a register bank. This is really the magnum opus of everything below. The slide incrementor can be put in a loop set to terminate after m iterations, allowing us to store a datum in a specific register of the storage bank / binary blob.
 
 basicinput - basic input example
 
