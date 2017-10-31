@@ -1,4 +1,12 @@
 
+
+### Issues
+
+WARNING - macos brainfuck doesn't parse comments correctly
+
+write your own brainfuck parser in python i guess
+
+
 ####Reference:
 [UNIX ASCII Table](http://www.unix-manuals.com/refs/misc/ascii-table.html)
 
