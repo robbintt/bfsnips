@@ -1,5 +1,19 @@
 
 
+### Howto:
+
+You should use a bash function to lint comments from brainfuck scripts:
+
+    # lint comments from a brainfuck script, pass the script as your argument
+    function bf () {
+        cat "$@" | sed 's/^\(.*\)#.*$/\1/' | brainfuck
+    }
+
+The scripts in this folder are heavily commented and must be linted.
+
+Without a linter the brainfuck instructions in the comments will run.
+
+
 ### Issues
 
 WARNING - macos brainfuck doesn't parse comments correctly
