@@ -13,6 +13,8 @@ The scripts in this folder are heavily commented and must be linted.
 
 Without a linter the brainfuck instructions in the comments will run.
 
+The macos homebrew `brainfuck` package was (on 2017.10.31): https://github.com/fabianishere/brainfuck
+
 
 ### Issues
 
